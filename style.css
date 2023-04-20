@@ -293,21 +293,21 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* assignmentassignmentassignmentassignmentassignmentassignment section styling */
+/* assignment section styling */
 .assignment, .teams{
     color:#fff;
     background: #111;
 }
-.assignmentassignmentassignmentassignmentassignment .title::before,
+.assignment .title::before,
 .teams .title::before{
     background: #fff;
 }
-.assignmentassignmentassignmentassignment .title::after,
+.assignment .title::after,
 .teams .title::after{
     background: #111;
     content: "what i learned";
 }
-.assignmentassignmentassignment .serv-content .card{
+.assignment .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -316,7 +316,7 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.assignmentassignment .serv-content .card:hover{
+.assignment .serv-content .card:hover{
     background: rgb(30, 186, 214);
 }
 .assignment .serv-content .card .box{
@@ -325,12 +325,12 @@ section .title::after{
 .assignment .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.assignmentassignmentassignment .serv-content .card i{
+.assignment .serv-content .card i{
     font-size: 50px;
     color:rgb(30, 186, 214);
     transition: color 0.3s ease;
 }
-.assignmentassignment .serv-content .card:hover i{
+.assignment .serv-content .card:hover i{
     color: #fff;
 }
 .assignment .serv-content .card .text{
