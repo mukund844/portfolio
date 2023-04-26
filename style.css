@@ -394,7 +394,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.report .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
