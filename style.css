@@ -364,11 +364,11 @@ section .title::after{
     width:80%;
 }
 
-/* teams section styling */
-.teams .title::after{
+/* report section styling */
+.report .title::after{
     content: "what I did";
 }
-.teams .carousel .card{
+.report .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -376,25 +376,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.report .carousel .card:hover{
     background: rgb(30, 186, 214);
 }
-.teams .carousel .card .box{
+.report .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.report .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
-    font-size: 25px;
+.report .carousel .card .text{
+    font-size: 50px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.report .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -402,7 +402,7 @@ section .title::after{
     border: 5px solid rgb(30, 186, 214);
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.report .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
