@@ -390,7 +390,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 50px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
