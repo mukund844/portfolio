@@ -1,0 +1,11 @@
+.head{
+    font-size: 20px;
+    font-style: inherit;
+    background-color: aqua;
+}
+.body{
+    font-size: 5px;
+    font-style: normal;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+}
