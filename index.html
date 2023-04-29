@@ -234,34 +234,36 @@
                         <div class="button-area">
                             <button type="submit">Send message</button>
                         </div>
+                        <script src="https://smtpjs.com/v3/smtp.js"></script>
+                        <script>
+                              function sendEmail(){
+                                  Email.send({
+                                    Host: "smtp.gmail.com",
+                                    Username: "mukunddeshmukh432@gmail.com"
+                                    To:' mukunddeshmukh432@gmail.com',
+                                    From: document.getElementById("email").value,
+                                    Subject: document.getElementById("text").value,
+                                    Body: "Name: " + document.getElementById("name").value
+                                    + "<br> Email: " + document.getElementById("email").value
+                                    + "<br> subject: " + document.getElementById("subject").value
+                                    +"<br> Message:" + document.getElementById("message").value
+                            }).then(
+                            message => alert("Message Sent Succes")
+                            );
+                            }
+                            </script>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+   
+</section>
     
     <footer>
         <span>Created By <a href="https://instagram.com/mr_dadudeshmukh?igshid=ZDdkNTZiNTM=">CodingMD</a> | <span class="far fa-copyright"></span> 2023 All rights reserved.</span>
     </footer>
     <script src="script.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
 
-<script>
-function sendEmail(){
-        Email.send({
-        Host: "smtp.gmail.com",
-        Username: "mukunddeshmukh432@gmail.com"
-        To:' mukunddeshmukh432@gmail.com',
-        From: document.getElementById("email").value,
-        Subject: "New Contact Form Enquiry",
-        Body: "Name: " + document.getElementById("name").value
-        + "<br> Email: " + document.getElementById("email").value
-        + "<br> subject: " + document.getElementById("subject").value
-        +"<br> Message:" + document.getElementById("message").value
-}).then(
-message => alert("Message Sent Succes")
-);
-}
-</script>
+
 </body>
 </html>
