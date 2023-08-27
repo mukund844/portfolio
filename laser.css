@@ -1,10 +1,7 @@
-body{
-  
-}
 header{
     position: relative;
     margin-top: 10px;
-    background-position: center top;
+    margin-left: 20px;
 
 }
 .box{
@@ -18,7 +15,6 @@ header{
     background-color: rgba(224, 237, 249, 0.514) ;
     border-radius: 2%;
     filter: blur(0 20px);
-    background-position:center;
 
 }
 .to{
@@ -50,23 +46,25 @@ header{
 .module{
     background-image: url(img2.jpg);
     height: auto;
-    width: auto;
+    width: 70%;
     border: 5px solid black;
     margin-top: 10px;
-    margin-left:0%;
-  background-position:center;
+    margin-left:15%;
+    border-radius: 2px;
     
 
 
 }
 .img{
-    margin-left: 0%;
+    margin-left: 0;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
     border: 5px outset black;
-    width: auto;
+    width: 85%;
     border-radius: 10px;
+    background-position: center;
+    margin-left: 7%;
 }
 .video{
     margin-left: 0%;
@@ -77,20 +75,12 @@ header{
     box-shadow: 0, 0 , 20, rgba(0 0 0);
     margin-left: 0%;
     text-align: center;
-    width: auto;
+    width: 40%;
     text-align: center;
     color: aliceblue;
     border: 5px outset black;
     border-radius: 10px;
+    margin-left: 30%;
     
     
 }
-.my{
-    text-align: center;
-    color: aqua;
-}
-.abc{
-    color: azure;
-}
-
-     
