@@ -49,7 +49,7 @@ header{
 .module{
     background-image: url(img2.jpg);
     height: auto;
-    width: 70%;
+    width: auto;
     border: 5px solid black;
     margin-top: 10px;
     margin-left:15%;
@@ -63,7 +63,7 @@ header{
     margin-bottom: 10px;
     text-align: center;
     border: 5px outset black;
-    width: 85%;
+    width: auto;
     border-radius: 10px;
 }
 .video{
@@ -73,12 +73,12 @@ header{
 }
 .cut{
     box-shadow: 0, 0 , 20, rgba(0 0 0);
-    margin-left: 30%;
+    margin-left: 0%;
     text-align: center;
-    width: 40%;
+    width: auto;
     text-align: center;
     background-color: azure;
-    border: 2px outset black;
+    border: 10px outset black;
     border-radius: 10px;
     
     
